@@ -94,7 +94,25 @@ header h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    /* width: calc(50% - 80px); */
+}
+
+.skipLink {
+	height: 20px;
+	/* width: 130px; */
+	position: absolute;
+	background-color: var(--filterColor);
+	color: white;
+	top: -50px;
+	left: 0;
+	margin-left: 15px;
+	border-radius: 5px;
+	padding: 0 5px;
+}
+
+.skipLink:focus {
+	top: 0px;
+	color: white;
+	outline: none;
 }
 
 /* Display list items side by side */
