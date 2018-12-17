@@ -23,4 +23,4 @@ Download the files and navigate to the top level of the folder. Open a terminal 
 
 ### Attribution
 
-Service worker code has extensively borrowed from [Google Developers web fundamentals website] (https://developers.google.com/web/fundamentals/primers/service-workers/), especially around cloning a response from the server to both go to the user and cache through the service worker.
+Service worker code has borrowed from [Google Developers web fundamentals website](https://developers.google.com/web/fundamentals/primers/service-workers/), altering my Fetch event listener to clone a request so it can be used to pass the fetch to the user and cache the result.
